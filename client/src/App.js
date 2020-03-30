@@ -15,7 +15,6 @@ import Alert from './components/layout/Alert';
 
 import PrivateRoute from './components/routing/PrivateRoute'
 import AlertState from "./context/alert/alertState";
-import Blank from "./components/pages/Blank";
 
 if(localStorage.token){
   setAuthToken(localStorage.token);
